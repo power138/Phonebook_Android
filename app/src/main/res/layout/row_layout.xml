@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="5dp"
+    android:background="#E0F7FA"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text_user_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Here Name"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_user_mobile"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Here Mobile"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_user_email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Here Email"
+        android:textColor="#000000" />
+
+</LinearLayout>
